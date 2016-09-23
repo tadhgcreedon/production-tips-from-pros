@@ -1,0 +1,20 @@
+{
+  "name": "production-tips-from-pros",
+  "description": "A web application that aggregates music production and audio engineering advice from professionals.",
+  "main": "index.js",
+  "authors": [
+    "Tadhg Creedon <tadhgcreedon@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tadhgcreedon/production-tips-from-pros",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

@@ -1,3 +1,61 @@
+@import 'colors';
+
 body {
+    margin: 0;
     font-family: sans-serif;
+    color: $white;
+    background-color: $teal-1;
+    font-size: 16px;
+}
+
+header {
+    background-color: $black;
+    h1 {
+        width: 50%;
+        margin: 0 auto 0 auto;
+        padding: 0.25%;
+        background-color: $teal-2-dark;
+        // border-radius: 3px;
+        text-align: center;
+    }
+}
+
+#search {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    input {
+        -webkit-appearance: none;
+        width: 100%;
+        background-color: $black;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        text-align: center;
+        color: $white;
+        padding: 0.5%;
+        font-size: 16px;
+        font-weight: lighter;
+
+        &:focus {
+            outline: none;
+            border: 2px solid $teal-1-dark;
+        }
+    }
+}
+
+#navigation {
+    text-align: center;
+    padding: 0.25%;
+    .navigation-link {
+        color: $white;
+        margin-right: 3%;
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: 3px solid $teal-1-dark;
+        }
+    }
+
+    .navigation-link-selected {
+        border-bottom: 3px solid $teal-1-light;
+    }
 }
