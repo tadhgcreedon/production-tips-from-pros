@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 // import ReactPaginate from 'react-paginate';
 
+//import environment from '../../config.js';
+
 require('../style/app.scss');
 
 export default class App extends Component {
