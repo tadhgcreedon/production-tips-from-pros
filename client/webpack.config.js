@@ -23,5 +23,12 @@ module.exports = {
                 loaders: ['style', 'css', 'sass']
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.DefinePlugin({
+            'process.env':{
+              'API_URL': JSON.Stringify('')
+            }
+        })
+    ]
 };
